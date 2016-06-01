@@ -1,0 +1,312 @@
+// ========================================
+// base
+// ========================================
+
+.bubble {
+	position: absolute;
+	background-size: cover;
+	z-index: 4;
+}
+
+.bubble--1  { background-image: url(/assets/img/bubbles/bubble-1.png); }
+.bubble--2  { background-image: url(/assets/img/bubbles/bubble-2.png); }
+.bubble--3  { background-image: url(/assets/img/bubbles/bubble-3.png); }
+// .bubble--4  { background-image: url(/assets/img/bubbles/bubble-4.png); }
+.bubble--5  { background-image: url(/assets/img/bubbles/bubble-5.png); }
+.bubble--6  { background-image: url(/assets/img/bubbles/bubble-6.png); }
+.bubble--7  { background-image: url(/assets/img/bubbles/bubble-7.png); }
+// .bubble--8  { background-image: url(/assets/img/bubbles/bubble-8.png); }
+// .bubble--9  { background-image: url(/assets/img/bubbles/bubble-9.png); }
+// .bubble--10 { background-image: url(/assets/img/bubbles/bubble-10.png); }
+.bubble--11 { background-image: url(/assets/img/bubbles/bubble-11.png); }
+.bubble--12 { background-image: url(/assets/img/bubbles/bubble-12.png); }
+.bubble--13 { background-image: url(/assets/img/bubbles/bubble-13.png); }
+.bubble--14 { background-image: url(/assets/img/bubbles/bubble-14.png); }
+.bubble--15 { background-image: url(/assets/img/bubbles/bubble-15.png); }
+
+// ========================================
+// size + positioning
+// ========================================
+
+.bubble--15 {
+	width: 150px;
+	height: 150px;
+	top: 30px;
+	right: 160px;
+}
+
+.bubble--14 {
+	width: 130px;
+	height: 130px;
+	top: 200px;
+	right: 0;
+	@include breakpoint(mobile) {
+		width: 80px;
+		height: 80px;
+		top: 270px;
+		right: 10px;
+	}
+}
+
+.bubble--13 {
+	top: 530px;
+	right: 30px;
+	width: 70px;
+	height: 70px;
+}
+
+.bubble--7 {
+	top: 740px;
+	right: 30px;
+}
+
+// .bubble--9 {
+// 	top: 780px;
+// 	right: 240px;
+// 	width: 230px;
+// 	height: 210px;
+// 	@include breakpoint(mobile) {
+// 		top: 600px;
+// 		right: 20px;
+// 		width: 150px;
+// 		height: 140px;
+// 	}
+// }
+
+.bubble--3 {
+	top: 830px;
+	left: 0px;
+	width: 140px;
+	height: 140px;
+	@include breakpoint(mobile) {
+		left: 230px;
+		width: 80px;
+		height: 80px;
+	}
+}
+
+.bubble--5 {
+	top: 820px;
+	left: -90px;
+	width: 170px;
+	height: 180px;
+	@include breakpoint(mobile) {
+		top: 720px;
+		width: 140px;
+		height: 140px;
+	}
+}
+
+.bubble--1 {
+	top: 1100px;
+	right: -60px;
+	width: 170px;
+	height: 180px;
+	@include breakpoint(mobile) {
+	    right: 0;
+	}
+}
+
+.bubble--2 {
+	top: 1420px;
+	right: 80px;
+	width: 110px;
+	height: 110px;
+}
+
+.bubble--6 {
+	top: 1770px;
+	left: 160px;
+	width: 80px;
+	height: 110px;
+}
+
+.bubble--11 {
+	top: 1790px;
+	left: -100px;
+	width: 130px;
+	height: 140px;
+}
+
+// .bubble--10 {
+// 	top: 2100px;
+// 	left: 320px;
+// 	width: 230px;
+// 	height: 200px;
+// }
+
+// .bubble--4 {
+// 	top: 2310px;
+// 	right: 310px;
+// 	width: 160px;
+// 	height: 150px;
+// }
+
+// .bubble--8 {
+// 	top: 2570px;
+// 	right: 30px;
+// 	width: 200px;
+// 	height: 160px;
+// }
+
+.bubble--12 {
+	top: 2580px;
+	left: 150px;
+	width: 120px;
+	height: 120px;
+}
+
+// ========================================
+// duplicates
+// ========================================
+
+// desktop & desktop + mobile
+
+.bubbles {
+	div:nth-child(3) { // .bubble--13
+		@include breakpoint(mini-mobile) {
+			display: none;
+			// top: 650px;
+		}
+	}
+	div:nth-child(10) { // .bubble--7
+		top: 1730px;
+		left: 160px;
+		width: 140px;
+		height: 180px;
+		@include breakpoint(mini-mobile) {
+			top: 1760px;
+			left: 170px;
+			width: 100px;
+			height: 130px;
+		}
+	}
+	div:nth-child(17) { // .bubble--7
+		top: 2640px;
+		left: 140px;
+		width: 90px;
+		height: 90px;
+	}
+	// div:nth-child(18) { // .bubble--5
+	// 	top: 2920px;
+	// 	left: -40px;
+	// 	width: 130px;
+	// 	height: 130px;
+	// }
+	// div:nth-child(19) { // .bubble--3
+	// 	top: 2930px;
+	// 	left: 450px;
+	// 	width: 110px;
+	// 	height: 110px;
+	// }
+	div:nth-child(20) { // .bubble--6
+		top: 2950px;
+		left: 780px;
+		width: 100px;
+		height: 130px;
+	}
+}
+
+// mobile
+
+.bubbles {
+	div:nth-child(12) {
+		@include breakpoint(mini-mobile) {
+			top: 2650px;
+			left: -10px;
+			width: 80px;
+  			height: 80px;
+		}
+	}
+}
+
+// ========================================
+// mobile
+// ========================================
+
+.bubbles {
+	div:nth-child(1),
+	div:nth-child(11),
+	div:nth-child(13),
+	div:nth-child(14),
+	div:nth-child(16),
+	div:nth-child(17),
+	div:nth-child(18),
+	div:nth-child(19),
+	div:nth-child(20) {
+		@include breakpoint(mini-mobile) {
+			display: none;
+		}
+	}
+	div:nth-child(5),
+	div:nth-child(9) {
+		@include breakpoint(mobile) {
+			display: none;
+		}
+	}
+}
+
+// ========================================
+// bubbles too far down page on list view
+// ========================================
+
+.mobileview--overview {
+	.bubbles {
+		div:nth-child(8),
+		div:nth-child(10),
+		div:nth-child(12) {
+			display: none;
+		}
+	}
+}
+
+// ========================================
+// winners
+// ========================================
+
+.winnerview--list {
+
+	.bubbles {
+		div:nth-child(6),  // .bubble--3
+		div:nth-child(7) { // .bubble--5
+			@include breakpoint(mini-mobile) {
+				display: none;
+			}
+		}
+		div:nth-child(8) { // .bubble--2
+			@include breakpoint(mini-mobile) {
+				right: 20px;
+			}
+		}
+		div:nth-child(10) { // .bubble--7
+			@include breakpoint(mini-mobile) {
+				left: -20px;
+			}
+		}
+	}
+
+}
+
+.winnerview--overview {
+
+	.bubbles {
+		div:nth-child(6) { // .bubble--3
+			@include breakpoint(mini-mobile) {
+				left: inherit;
+				right: 10px;
+			}
+		}
+		div:nth-child(8),
+		div:nth-child(9),
+		div:nth-child(10),
+		div:nth-child(11),
+		div:nth-child(12),
+		div:nth-child(13),
+		div:nth-child(14) {
+			@include breakpoint(mini-mobile) {
+				display: none;
+			}
+		}
+	}
+
+}

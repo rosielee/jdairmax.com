@@ -1,0 +1,54 @@
+// ========================================
+// base
+// ========================================
+
+.terms {
+	position: absolute;
+	padding: 50px;
+	background-color: $black;
+	z-index: 10;
+	top: 40px;
+	width: 1024px;
+	left: 50%;
+	margin-left: -512px;
+	outline: 5000px solid rgba($black, 0.5);
+	@include breakpoint(mini-mobile) {
+		width: 100%;
+		margin: 0;
+		top: 0;
+		left: 0;
+		height: 100%;
+		padding: 20px 10px 10px 10px;
+		overflow: hidden;
+	}
+}
+
+.terms__inner {
+	@include breakpoint(mini-mobile) {
+		overflow: scroll;
+		height: 100%;
+	}
+}
+
+.terms__title {
+	margin-bottom: 20px;
+	@include fontSize(20px);
+	@include lineHeight(26px);
+}
+
+.terms__text {
+	@include fontSize(18px);
+	@include lineHeight(24px);
+	margin-bottom: 20px;
+}
+
+.terms__cross {
+	display: block;
+	width: 21px;
+	height: 21px;
+	@extend .icon__cross;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	z-index: 999;
+}

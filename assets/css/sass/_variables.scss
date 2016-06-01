@@ -1,0 +1,49 @@
+// ===========================================================
+// font: family, sizes and weights
+// ===========================================================
+
+$fz-large   : 22px;
+$fz-medium  : 18px;
+$fz-small   : 14px;
+$fz-smaller : 12px;
+
+$fw-bold    : 600;
+$fw-regular : 100;
+
+// ===========================================================
+// screen sizes
+// ===========================================================
+
+$sz-largest 	: 500px; // 1024px;
+$sz-large 		: 500px; // 1024px;
+$sz-medium 		: 500px; // 1024px;
+$sz-small 		: 500px;
+
+// ===========================================================
+// colours
+// ===========================================================
+
+$blue           : #8CC3C8;
+$blue-tint      : #D6E6E9;
+$green          : #B4DC9B;
+$green-tint     : #C7E9D3;
+$darkgreen      : #70C791;
+$yellow         : #FFDC96;
+$yellow-tint    : #FFE6B4;
+$white          : #FFFFFF;
+$offwhite       : #E1DCD2;
+$grey-one       : #E5E5E5;
+$grey-two       : #CCCCCC;
+$grey-three     : #B3B3B3;
+$grey-four      : #9C9C9C;
+$grey-five      : #7F7F7F;
+$grey-six       : #666666;
+$grey-seven     : #4D4D4D;
+$grey-eight     : #333333;
+$grey-nine      : #1A1A1A;
+$black          : #000000;
+$black-trans    : rgba(0,0,0, 0.6);
+$white-trans    : rgba(255,255,255, 0.6);
+$green-trans    : rgba(112,199,145, 0.7);
+$alert          : #FFCCCC;
+$success        : #FFDC96;

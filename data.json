@@ -1,0 +1,376 @@
+{
+    "intro" : {
+        "shopLink" : "http://www.jdsports.co.uk/featured/Nike%20Air%20Max?fredhopperUrl=fh_location=%2f%2fcatalog01%2fen_GB%2fcollection%3e%7bnike20air20max%7d",
+    	"heroImg" : "/assets/img/air_max_day_lockup_date.png",
+        "text" : "It’s time to celebrate Air Max Day 2015!\nCongratulations MASTERVARIANT! we love your Air Max style.\nYou have won a trip to Paris as part of our Air Max Day competition.\nThanks again to all those who took part. Your style game was strong.\nCheck out our top 10 shots from the #JDAIRMAX instagram uploads below.\nFor those who missed out, be sure to keep on spreading the #AIRMAX love.",
+        "winnerName": "MASTERVARIANT",
+        "winnerUrl": "/assets/img/instagrams/winners/mastervariant.png"
+    },
+    "polaroids" : {
+        "finalists" : [
+            {
+                "name": "TODAYSTOPPINGS",
+                "size" : "large",
+                "type": "pins",
+                "url": "assets/img/instagrams/winners/todaystoppings.png"
+            },
+    		{
+                "name": "STYLEDESCRIPTION",
+                "size" : "small",
+                "type": "bulldog",
+                "url": "/assets/img/instagrams/winners/styledescription.png"
+            },
+    		{
+                "name": "SOFRESHSOCLEAN23",
+                "size" : "small",
+                "type": "pins",
+                "url": "/assets/img/instagrams/winners/sofreshsoclean23.png"
+            },
+    		{
+                "name": "SLANGWERKS",
+                "size" : "large",
+                "type": "bulldog",
+                "url": "/assets/img/instagrams/winners/slangwerks.png"
+            },
+    		{
+                "name": "MAT_BUCKETS",
+                "size" : "large",
+                "type": "pins",
+                "url": "/assets/img/instagrams/winners/mat_buckets.png"
+            },
+    		{
+                "name": "MASTERVARIANT",
+                "size" : "small",
+                "type": "pins",
+                "url": "/assets/img/instagrams/winners/mastervariant.png"
+            },
+    		{
+                "name": "LOUISEODONNE11",
+                "size" : "small",
+                "type": "pins",
+                "url": "/assets/img/instagrams/winners/louiseodonne11.png"
+            },
+    		{
+                "name": "JEWITTS",
+                "size" : "small",
+                "type": "bulldog",
+                "url": "/assets/img/instagrams/winners/jewitts.png"
+            },
+    		{
+                "name": "GOLDSTRIKEC",
+                "size" : "large",
+                "type": "bulldog",
+                "url": "/assets/img/instagrams/winners/goldstrikec.png"
+            },
+    		{
+                "name": "AMY_MATTHEWS",
+                "size" : "large",
+                "type": "pins",
+                "url": "/assets/img/instagrams/winners/amy_matthews.png"}
+        ],
+        "day1" : [
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-1/vanwilljamz-05.png",
+                "name" : "VANWILLJAMZ"
+            },
+            {
+                "size" : "small",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-1/loustar90-02.png",
+                "name" : "LOUSTAR90"
+            },
+            {
+                "size" : "small",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-1/vivianfranklondon-01.png",
+                "name" : "VIVIANFRANKLONDON"
+            },
+            {
+                "size" : "small",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-1/s_watto.png",
+                "name" : "S_WATTO"
+            },
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-2/1nd1_go.png",
+                "name" : "1ND1_GO"
+            },
+            {
+                "size" : "small",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-2/_sianna_.png",
+                "name" : "_SIANNA_"
+            },
+            {
+                "size" : "small",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-2/amarlarr.png",
+                "name" : "AMARLARR"
+            },
+            {
+                "size" : "large",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-2/andy_nuggets.png",
+                "name" : "ANDY_NUGGETS"
+            },
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-2/anthonynomrah.png",
+                "name" : "ANTHONYNOMRAH"
+            },
+            {
+                "size" : "small",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-2/crumblin__erb.png",
+                "name" : "CRUMBLIN__ERB"
+            }
+        ],
+        "day2" : [
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-1/vanwilljamz-04.png",
+                "name" : "VANWILLJAMZ"
+            },
+            {
+                "size" : "small",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-2/gabriellapascal.png",
+                "name" : "GABRIELLAPASCAL"
+            },
+            {
+                "size" : "small",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-2/joshuaparry1992.png",
+                "name" : "JOSHUAPARRY1992"
+            },
+            {
+                "size" : "large",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-2/justinbrown__.png",
+                "name" : "JUSTINBROWN__"
+            },
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-2/kidkiy.png",
+                "name" : "KIDKIY"
+            },
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-2/laladee17.png",
+                "name" : "LALADEE17"
+            },
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-2/ritchie_mcc.png",
+                "name" : "RITCHIE_MCC"
+            },
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-2/shaunnasuxx.png",
+                "name" : "SHAUNNASUXX"
+            },
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-2/slangwerks.png",
+                "name" : "SLANGWERKS"
+            },
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-2/veil_is_pierced1.png",
+                "name" : "VEIL_IS_PIERCED1"
+            }
+        ],
+        "day3" : [
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-3/zac_gilly15.png",
+                "name" : "ZAC_GILLY15"
+            },
+            {
+                "size" : "small",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-3/mcarthurjoseph.png",
+                "name" : "MCARTHURJOSEPH"
+            },
+            {
+                "size" : "small",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-3/mastervariant.png",
+                "name" : "MASTERVARIANT"
+            },
+            {
+                "size" : "large",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-3/luke_jones82.png",
+                "name" : "LUKE_JONES82"
+            },
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-3/ladyofashion.png",
+                "name" : "LADYOFASHION"
+            },
+            {
+                "size" : "small",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-3/keiran_is_devine.png",
+                "name" : "KEIRAN_IS_DEVINE"
+            },
+            {
+                "size" : "small",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-3/hayley96_.png",
+                "name" : "HAYLEY96_"
+            },
+            {
+                "size" : "small",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-3/grassy.xo.png",
+                "name" : "GRASSY.XO"
+            },
+            {
+                "size" : "large",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-3/_liamwells.png",
+                "name" : "_LIAMWELLS"
+            },
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-3/1nd1_go.png",
+                "name" : "1ND1_GO"
+            }
+        ],
+        "day4" : [
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-4/aommekwan.png",
+                "name" : "AOMMEKWAN"
+            },
+            {
+                "size" : "small",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-4/chloemellissa.png",
+                "name" : "CHLOEMELLISSA"
+            },
+            {
+                "size" : "small",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-4/indylarr.png",
+                "name" : "INDYLARR"
+            },
+            {
+                "size" : "large",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-4/mat_buckets-01.png",
+                "name" : "MAT_BUCKETS"
+            },
+            {
+                "size" : "small",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-4/paul_rampton.png",
+                "name" : "PAUL_RAMPTON"
+            },
+            {
+                "size" : "small",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-4/ross_capone_100.png",
+                "name" : "ROSS_CAPONE_100"
+            },
+            {
+                "size" : "small",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-4/runmile.png",
+                "name" : "RUNMILE"
+            },
+            {
+                "size" : "large",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-4/slangwerks.png",
+                "name" : "SLANGWERKS"
+            },
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-4/xlozzaxd.png",
+                "name" : "XLOZZAXD"
+            }
+        ],
+        "day5" : [
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-5/_liamwells.png",
+                "name" : "_LIAMWELLS"
+            },
+            {
+                "size" : "small",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-5/calendula.m.png",
+                "name" : "CALENDULA.M"
+            },
+            {
+                "size" : "small",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-5/corey_witt.png",
+                "name" : "COREY_WITT"
+            },
+            {
+                "size" : "large",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-5/instakay.png",
+                "name" : "INSTAKAY"
+            },
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-5/kelvin.folashade.png",
+                "name" : "KELVIN.FOLASHADE"
+            },
+            {
+                "size" : "small",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-5/sasharidge95.png",
+                "name" : "SASHARIDGE95"
+            },
+            {
+                "size" : "small",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-5/schopes.png",
+                "name" : "SCHOPES"
+            },
+            {
+                "size" : "small",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-5/shaunnasuxx.png",
+                "name" : "SHAUNNASUXX"
+            },
+            {
+                "size" : "large",
+                "type" : "bulldog",
+                "url" : "/assets/img/instagrams/round-5/taitsz.png",
+                "name" : "TAITSZ"
+            },
+            {
+                "size" : "large",
+                "type" : "pins",
+                "url" : "/assets/img/instagrams/round-5/the_brit72.png",
+                "name" : "THE_BRIT72"
+            }
+        ]
+    }
+}

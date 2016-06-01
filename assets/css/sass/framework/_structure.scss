@@ -1,0 +1,37 @@
+// ========================================
+// base
+// ========================================
+
+html {
+	background: url(/assets/img/pegboard_pattern.jpg);
+	color: $white;
+	font-family: 'futura-bold-cond-italic';
+	overflow-x: hidden;
+	&:before {
+		content: "";
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		z-index: -5;
+		top: 0;
+		left: 0;
+		background: -webkit-radial-gradient(top center, ellipse cover, rgba(0,0,0,0) 20%,rgba(44,16,4,0.9) 100%);
+	}
+}
+
+body {
+	letter-spacing: 0.02em;
+}
+
+.container {
+	position: relative;
+	width: 1024px;
+	margin: 0 auto;
+	padding: 0 24px;
+	// height: 100vh;
+	// background-color: rgba(255, 0, 0, 0.22);
+	@include breakpoint(mini-mobile) {
+		width: 100%;
+		padding: 0 10px;
+	}
+}

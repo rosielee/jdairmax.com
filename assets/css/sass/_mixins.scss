@@ -1,0 +1,115 @@
+// ===========================================================
+// fonts
+// ===========================================================
+
+@mixin letterSpacing($size) {
+	@if 	 $size == large	 { letter-spacing: 3px; }
+	@else if $size == medium { letter-spacing: 2px; }
+	@else if $size == small  { letter-spacing: 1px; }
+}
+
+@function calculateRem($size) {
+	$remSize: $size / 16px;
+	@return #{$remSize}rem;
+}
+
+@mixin fontSize($size) {
+	font-size: $size; // Fallback in px
+	font-size: calculateRem($size);
+}
+
+@mixin lineHeight($size) {
+	line-height: $size; // Fallback in px
+	line-height: calculateRem($size);
+}
+
+@mixin letterSpacing($size) {
+	letter-spacing: $size; // Fallback in px
+	letter-spacing: calculateRem($size);
+}
+
+// Example usage...
+
+// --Sass:
+
+// h1 {
+//     @include fontSize(32px);
+// }
+
+// --Output:
+
+// h1 {
+//     font-size: 32px;
+//     font-size: 2rem;
+// }
+
+// ===========================================================
+// circles
+// ===========================================================
+
+@mixin circle($size) {
+	width: $size;
+	height: $size;
+	border-radius: $size;
+}
+
+@mixin psuedoCircle($size) {
+	position: absolute;
+	content: "";
+	@include circle($size);
+	border: ($size / 5) solid #fff;
+	top: 5px;
+	right: -($size * 2);
+}
+
+// ===========================================================
+// prefix solutions
+// ===========================================================
+
+@mixin prefix($name, $value) {
+    -webkit-#{$name}: $value;
+    // -moz-#{$name}: $value;
+    // -ms-#{$name}: $value;
+    // -o-#{$name}: $value;
+    #{$name}: $value;
+}
+
+@mixin placeholder {
+	::-webkit-input-placeholder {@content}
+	:-moz-placeholder           {@content}
+	::-moz-placeholder          {@content}
+	:-ms-input-placeholder      {@content}
+}
+
+// Example usage...
+
+// --Sass:
+
+// @include placeholder { color: red; }
+
+// --Output:
+
+// ::-webkit-input-placeholder { color: red; }
+//           :-moz-placeholder { color: red; }
+//          ::-moz-placeholder { color: red; }
+//      :-ms-input-placeholder { color: red; }
+
+// ===========================================================
+// responsive
+// ===========================================================
+
+@mixin breakpoint($point) {
+	@if 		$point == large			{ @media screen and (min-width: $sz-largest)									{ @content; } }
+	@else if 	$point == tablet		{ @media screen and (max-width: $sz-large) and (min-width: $sz-medium) 			{ @content; } }
+	@else if 	$point == mini 			{ @media screen and (max-width: $sz-medium)  and (min-width: $sz-small) 		{ @content; } }
+	@else if 	$point == mobile		{ @media screen and (max-width: $sz-small)  									{ @content; } }
+
+	@else if 	$point == large-tablet	{ @media screen and (max-width: $sz-largest)									{ @content; } }
+	@else if 	$point == large-mini	{ @media screen and (max-width: $sz-largest)	 and (min-width: $sz-medium)	{ @content; } }
+	@else if 	$point == large-mobile	{ @media screen and (max-width: $sz-largest)									{ @content; } }
+
+	@else if 	$point == tablet-mini	{ @media screen and (max-width: $sz-large) and (min-width: $sz-small)			{ @content; } }
+	@else if 	$point == tablet-mobile	{ @media screen and (max-width: $sz-large)										{ @content; } }
+
+	@else if 	$point == mini-mobile	{ @media screen and (max-width: $sz-medium)										{ @content; } }
+}

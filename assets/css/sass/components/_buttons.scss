@@ -1,0 +1,132 @@
+.btn {
+	position: absolute;
+}
+
+.btn--terms {
+	background: url(/assets/img/btns/terms_conditions_button@2x.png) 50% / cover;
+	display: block;
+	width: 90px;
+	height: 95px;
+	top: 530px;
+	right: 520px;
+	@include breakpoint(mini) {
+		right: inherit;
+		left: 0;
+	}
+	@include breakpoint(mobile) {
+		right: inherit;
+		left: 0;
+		top: 280px;
+		width: 60px;
+		height: 62px;
+	}
+}
+
+.btn--shopairmax {
+	background: url(/assets/img/btns/shop_air_max_button@2x.png) 50%/cover;
+	display: block;
+	width: 150px;
+	height: 155px;
+	top: 90px;
+	right: 380px;
+	z-index: 1;
+	@include breakpoint(mini) {
+		top: 20px;
+		right: 20px;
+		width: 120px;
+		height: 125px;
+	}
+	@include breakpoint(mobile) {
+		top: 20px;
+		right: 15px;
+		width: 80px;
+		height: 82px;
+	}
+}
+
+.btn--shopairmax--footer {
+	top: 2870px;
+	left: 190px;
+	@include breakpoint(mini-mobile) {
+	    display: none;
+	}
+}
+
+// ========================================
+// mobile buttons
+// ========================================
+
+.btn--mobile-list,
+.btn--mobile-overview {
+	position: relative;
+	z-index: 9;
+	width: 70px;
+	height: 75px;
+	background-position: 0 100%;
+	&.active,
+	&:hover {
+		background-position: 0 0;
+	}
+	@include breakpoint(large) {
+	    display: none;
+	}
+	@include breakpoint(large-mini) {
+	    display: none;
+	}
+	@include breakpoint(mini-mobile) {
+		display: inline-block;
+		margin-top: 20px;
+	}
+}
+
+.btn--mobile-overview {
+	background-image: url(/assets/img/btn-mobile-overview.png);
+	margin-left: -15px;
+}
+
+.btn--mobile-list {
+	background-image: url(/assets/img/btn-mobile-list.png);
+}
+
+// ========================================
+// winners page
+// ========================================
+
+.btn--winner {
+	background: url(/assets/img/btns/winner.png) 50% / cover;
+	display: block;
+	width: 285px;
+	height: 285px;
+	top: 20px;
+	right: -50px;
+	@include breakpoint(mini-mobile) {
+		z-index: 1;
+		top: 340px;
+		right: 0px;
+		width: 160px;
+		height: 160px;
+	}
+}
+
+.btn--winner-list,
+.btn--winner-overview {
+	position: static;
+	display: inline-block;
+	width: 150px;
+	height: 154px;
+	@include breakpoint(mini-mobile) {
+	    position: static;
+	    width: 100px;
+	    height: 104px;
+	    margin-top: 30px;
+	}
+}
+
+.btn--winner-overview {
+	background: url(/assets/img/btns/view_all_entries_button@2x.png) 50% / cover;
+	// background: url(/assets/img/btns/view-all-entries.png) 50% / cover;
+}
+
+.btn--winner-list {
+	background: url(/assets/img/btns/view_finalists_button@2x.png) 50% / cover;
+}

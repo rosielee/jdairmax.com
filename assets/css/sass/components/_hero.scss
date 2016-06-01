@@ -1,0 +1,56 @@
+// ========================================
+// HERO AND TITLE
+// ========================================
+
+.hero {
+	width: 635px;
+	left: -90px;
+	position: relative;
+	top: 40px;
+	@include breakpoint(mini-mobile) {
+		width: 100%;
+		left: 0;
+		top: 20px;
+	}
+}
+
+.hero--winner {
+	width: 525px;
+	left: -20px;
+	@include breakpoint(mini-mobile) {
+	    width: 100%;
+	    left: 0;
+	}
+}
+
+.intro {
+	margin-top: 30px;
+	width: 460px;
+	margin-left: 10px;
+	p {
+		margin-bottom: 5px;
+	}
+	@include breakpoint(mini-mobile) {
+		width: 100%;
+		font-size: 16px;
+		margin: 30px 0 0 0;
+	}
+}
+
+.intro--winner {
+	width: 540px;
+	margin: 60px 0 50px -10px;
+	@include breakpoint(mini-mobile) {
+		width: 100%;
+		margin: 0;
+	}
+	@media all and (max-width: 414px) and (min-width: 376px) { // iPhone 6 Plus
+		padding: 0 60px;
+	}
+	@media all and (max-width: 375px) and (min-width: 321px) { // iPhone 6
+		padding: 0 30px;
+	}
+	@media all and (max-width: 320px) { // iPhone 5
+		padding: 0 0;
+	}
+}
